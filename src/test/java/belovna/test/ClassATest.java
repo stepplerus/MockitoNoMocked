@@ -15,6 +15,8 @@ public class ClassATest extends TestCase {
         super.setUp();
 
         classA = Mockito.mock(ClassA.class);
+
+        System.out.printf("ClassATest.setUp 9. classA:%s\n", classA.getClass().getName());
     }
 
     @Test
